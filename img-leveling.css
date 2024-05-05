@@ -1,0 +1,137 @@
+/* выравнивание объектов друг в друге */
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    position: relative;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* второй способ */
+/* .child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+} */
+
+/* третий способ */
+/* .child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+} */
+
+/* четвертый способ */
+/* .parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+
+} */
+
+/* пятый способ
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    margin: auto;
+} */
+
+/* шестой способ */
+/* .parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+
+} */
+
+/* седьмой способ */
+/* .parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+.child {
+
+} */
+
+/* восьмой способ */
+/* .parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: grid;
+    
+}
+.child {
+    align-self: center;
+    justify-self: center;
+} */
+
+/* девятый способ */
+/* .parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: grid;
+    
+}
+.child {
+    place-self: center;
+} */
+
+/* десятый способ */
+/* .parent {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    display: grid;
+    
+}
+.child {
+    margin: auto;
+} */
